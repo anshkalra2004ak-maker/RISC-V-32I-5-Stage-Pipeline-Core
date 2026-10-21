@@ -1,0 +1,36 @@
+# Ignore hidden files and directories
+.*
+!.gitignore
+!.gitkeep
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Simulation and Build Artifacts
+*.vvp
+*.vcd
+*.vpd
+*.wlf
+*.log
+*.key
+dump.vcd
+out.vvp
+
+# EDA tool build directories
+work/
+obj_dir/
+INCA_libs/
+simv/
+simv.daidir/
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*~
